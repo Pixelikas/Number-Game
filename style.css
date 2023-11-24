@@ -1,0 +1,172 @@
+@font-face {
+
+    font-family: 'Kidos';
+    src: url(fonts/KIdDOS-Regular.otf);
+
+}
+
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    background-color: #000;
+    margin: 0;
+    font-family: 'Kidos';
+    font-size: 35px;
+    color: white;
+
+}
+
+#container{
+
+    height: 95%;
+    background-color: #000;
+    border: 3px solid black;
+
+}
+
+#topo{
+
+    height: 40%;
+    background-color: #805E91;
+    border-top: 10px solid black;
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    border-radius: 25px;
+    display: flex;
+
+}
+
+#topo-esquerda{
+
+    width: 30%;
+    background-color: #805E91;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#topo-meio{
+
+    width: 40%;
+    background-color: #805E91;
+    border-radius: 25px;
+
+}
+
+#topo-direita{
+
+    width: 30%;
+    background-color: #805E91;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#baixo{
+
+    height: 60%;
+    background-color:#000;
+    display: flex;
+    border: 5px solid black;
+    border-radius: 25px;
+
+}
+
+#baixo-esquerda{
+
+    height: 100%;
+    width: 33%;
+    background-color: #805E91;
+    border: 5px solid black;
+    border-radius: 25px;
+
+}
+
+#baixo-meio{
+
+    height: 100%;
+    width: 34%;
+    background-color: #805E91;
+    border: 5px solid black;
+    border-radius: 25px;
+
+}
+
+#baixo-direita{
+
+    height: 100%;
+    width: 33%;
+    background-color: #805E91;
+    border: 5px solid black;
+    border-radius: 25px;
+
+}
+
+input{
+
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: solid 2px black;
+    font-size: 40px;
+    font-family: 'Kidos';
+    color: #9142A6;
+    text-align: center;
+
+}
+button{
+    
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    border: solid 2px black;
+    background-color: #9142A6;
+    font-family: 'Kidos';
+    font-size: 30px;
+    color: white;
+
+}
+
+.btns:hover{
+
+    background-color: #CB95E6;
+    cursor: pointer;
+
+}
+
+img{
+
+    height: 100%;
+    width: auto;
+
+}
+
+#title{
+
+    font-size: 100px;
+    color: gold;
+
+}
+
+#slogan{
+
+    font-size: 45px;
+
+}
+
+#dicasNumero{
+
+    width: 300px;
+
+}

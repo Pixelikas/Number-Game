@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number GAME :D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="topo">
+
+            <div id="topo-esquerda">
+
+                <img src="images/numbers.png">
+
+            </div>
+
+            <div id="topo-meio">
+
+                <center>
+    
+                    <br><br>
+                    <label id="title"><b>Number GAME</b></label><br>
+                    <label id="slogan">Adivinhe o numero secreto!</label>
+    
+                </center>
+                
+            </div>
+
+            <div id="topo-direita">
+
+                <img src="images/try.png">
+                
+            </div>
+
+
+        </div>
+
+        <div id="baixo">
+
+            <div id="baixo-esquerda">
+
+                <center>
+                    
+                    <br>
+                    <label>DEFINICOES</label><br><br>
+
+                    <label>De</label> 
+                    <input id="lmtMin" type="number" min="0" max="100">
+                    <label>a</label> 
+                    <input id="lmtMax" type="number" min="0" max="100"><br><br>
+
+                    <label>Max Tentativas</label>
+                    <input id="maxTentativas" type="number" min="0" max="100">
+
+                </center>
+
+            </div>
+            
+            <div id="baixo-meio">
+                
+                <center>
+    
+                    <br>
+                    <label>JOGAR</label><br><br>
+                    <label>Seu palpite</label>
+                    <input id="palpiteJogador" type="number" min="0" max="100">
+                    <button class="btns" onclick="Confirma()" id="btConfirma" disabled>Confirma</button><br><br>
+                    <label>Tentativas Restantes</label>
+                    <input id="restoTentativas" type="number" min="0" max="100" readonly><br><br>
+                    <button class="btns" onclick="Inicia()" id="btIniciar">Iniciar</button>
+                    <button onclick="Desiste()" id="btDesistir" disabled>Desistir</button><br><br>
+                    <label id="msgJogador"> :D</label>   
+    
+                </center>
+
+            </div>
+
+            <div id="baixo-direita">
+
+                <center>
+
+                    <br>
+                    <label>PLACAR / DICAS</label><br><br>
+                    <label>Pontos</label><br>
+                    <input id="pontosJogador" type="number" min="0" max="100" readonly><br><br>
+                    <label>Dica Palpite</label><br>
+                    <input id="dicasNumero">
+
+                </center>
+                
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="jogoadivinha.js"></script>
+
+</body>
+</html>
